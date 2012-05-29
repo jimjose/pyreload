@@ -3,14 +3,10 @@
 """
 A file monitor and module reloader.
 
-Major part of the code is taken directly from 
-the original "paste.reloader" module. I just created this
-stripped down version for one of my projects and wanted to
-share if anyone else is interested.
+Major part of the code is taken directly from the original "paste.reloader" module. I just created this stripped down version for one of my projects and wanted to share if anyone else is interested.
 
-**all credits goes to orginal authors @ Paste **
+**all credits goes to original authors @ Paste **
 http://pythonpaste.org/modules/reloader.html
-
 
 Use this like:
 ..code-block:: Python
@@ -18,9 +14,7 @@ Use this like:
     import pyreload
     pyreload.install(verbose=True, poll_interval=1)
 
-- Now this will watch for any changes in the files and will reload 
-the corresponding module.
-
+Now this will watch for any changes in the files and will reload the corresponding module automatically, so there is no need to restart the python server.
 """
 
 import os
